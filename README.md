@@ -102,10 +102,10 @@ UserCanvas model
 | POST        | `/auth/logout`                | (empty)                      | 204            | 400          | Logs out the user                                            |
 | GET         | `/main        `                |                              |      204          | 400          | Show your canvas   |
 | GET         | `/canvas/:id`            | {id}                         |        204        |        400      | Show specific canvas              |
-| POST        | `/canvas/:id/add` | {}                           | 201            | 400          | Create and save a new canvas                     |
-| PUT         | `/canvas/:id/edit`       |         | 200            | 202          | edit canvas                |
-| DELETE      | `/canvas/delete/:id`     | {id}                         | 201            | 400          | delete canvas                                     |
-| GET         | `/gallery`                    |                              |   202             | 400          | show canvas uploaded by the community      |                                       |
+| POST        | `/canvas/:id/add` | {Canvas}                           | 201            | 400          | Create and save a new canvas                     |
+| PUT         | `/canvas/:id/edit`       |    {Canvas}     | 200            | 202          | edit canvas                |
+| DELETE      | `/canvas/delete/:id`     | {Canvas}                         | 201            | 400          | delete canvas                                     |
+| GET         | `/gallery`                    |      [canvas]                     |   202             | 400          | show canvas uploaded by the community      |                                       |
 
 
 <br>
