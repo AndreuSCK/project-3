@@ -6,16 +6,16 @@ Descripción de la app
 The MVP will cover the following:
 
 -   Homepage
--   Working Trivia Quiz
+-   Working Canvas app
 -   Profile
 -   Signup
 -   Login
 
 
 ## Backlog
--  Ranking
--  Multiplayer-Sockets
--  Custom user generated questions.
+-  Add online features to support multiple users.
+-  Multiple language support.
+-  Drag and drop the user options.
 
 ## Wireframes
 - https://i.imgur.com/vnt62ki.png
