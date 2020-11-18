@@ -38,17 +38,9 @@ The MVP will cover the following:
 | `/`                       | SplashPage           | public `<Route>`            | Home page                                                    |
 | `/signup`                 | SignupPage           | anon only  `<AnonRoute>`    | Signup form, link to login, navigate to homepage after signup |
 | `/login`                  | LoginPage            | anon only `<AnonRoute>`     | Login form, link to signup, navigate to homepage after login |
-| `/tournaments`            | TournamentListPage   | user only `<PrivateRoute>`  | Shows all tournaments in a list                              |
-| `/tournaments/add`        | TournamentListPage   | user only `<PrivateRoute>`  | Edits a tournament                                           |
-| `/tournaments/:id`        | TournamentDetailPage | user only `<PrivateRoute>`  | Details of a tournament to edit                              |
-| `/tournament/:id`         | n/a                  | user only `<PrivateRoute>`  | Delete tournament                                            |
-| `/tournament/players`     | PlayersListPage      | user only  `<PrivateRoute>` | List of players of a tournament                              |
-| `/tournament/players/add` | PlayersListPage      | user only `<PrivateRoute>`  | Add a player to the tournament                               |
-| `/tournament/players/:id` | PlayersDetailPage    | user only `<PrivateRoute>`  | Edit player for tournament                                   |
-| `/tournament/players/:id` | PlayersListPage      | user only  `<PrivateRoute>` | Delete player from tournament                                |
-| `/tournament/tableview`   | TableView            | user only  `<PrivateRoute>` | Games view and brackets                                      |
-| `/tournament/ranks`       | RanksPage            | user only `<PrivateRoute>`  | Ranks list                                                   |
-| `/tournament/game`        | GameDetailPage       | user only `<PrivateRoute>`  | Game details                                                 |
+| `/canvas/:id`             | UserCanvas           | user only `<PrivateRoute>`  | Canvas of the user.                                           |
+| `/profile`                 | UserProfile         | user only `<PrivateRoute>`  | User profile                                            |
+| `/gallery`                 | CanvasGallery       | user only `<PrivateRoute>`  | Gallery of the canvas uploaded by the community       |
 
 
 
