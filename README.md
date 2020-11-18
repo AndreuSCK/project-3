@@ -1,7 +1,7 @@
 # Project 3 App
-This app will let users create their own canvas and organize it as they want.
-Add headers, lists, pictures, text etc in a customized canvas ready to be used in your daily projects.
-This easy-to-use and straightforward app will be your favourite once you try it!
+-   This app will let users create their own canvas and organize it as they want.
+-   Add headers, lists, pictures, text etc in a customized canvas ready to be used in your daily projects.
+-   This easy-to-use and straightforward app will be your favourite once you try it!
 
 ## MVP
 The MVP will cover the following:
