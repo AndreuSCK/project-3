@@ -36,15 +36,46 @@ The MVP will cover the following:
 | Path                      | Component            | Permissions                 | Behavior                                                     |
 | ------------------------- | -------------------- | --------------------------- | ------------------------------------------------------------ |
 | `/`                       | SplashPage           | public `<Route>`            | Home page                                                    |
-| `/signup`                 | SignupPage           | anon only  `<AnonRoute>`    | Signup form, link to login, navigate to homepage after signup |
+| `/signup`                 | SignupPage           | anon only  `<AnonRoute>`    | Signup form, link to login, navigate to homepage after signup|
 | `/login`                  | LoginPage            | anon only `<AnonRoute>`     | Login form, link to signup, navigate to homepage after login |
-| `/canvas/:id`             | UserCanvas           | user only `<PrivateRoute>`  | Canvas of the user.                                           |
-| `/profile`                 | UserProfile         | user only `<PrivateRoute>`  | User profile                                            |
-| `/gallery`                 | CanvasGallery       | user only `<PrivateRoute>`  | Gallery of the canvas uploaded by the community       |
+| `/canvas/:id`             | UserCanvas           | user only `<PrivateRoute>`  | Canvas of the user.                                          |
+| `/profile`                | UserProfile          | user only `<PrivateRoute>`  | User profile                                                 |
+| `/gallery`                | CanvasGallery        | user only `<PrivateRoute>`  | Gallery of the canvas uploaded by the community              |
+
+
+## Components
+
+- LoginPage
+
+- SignupPage
+
+- SplashPage
+
+- UserCanvas
+
+- UserProfile
+
+- CanvasGallery
+
+- Navbar
 
 
 
+# Server / Backend
 
+
+## Models
+
+User model
+
+```javascript
+{
+  username: {type: String, required: true, unique: true},
+  email: {type: String, required: true, unique: true},
+  password: {type: String, required: true},
+  favorites: [UserCanvas]
+}
+```
 
 
 ## Wireframes
