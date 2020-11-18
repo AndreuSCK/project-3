@@ -18,7 +18,7 @@ The MVP will cover the following:
 -  Custom user generated questions.
 
 ## Wireframes
-- ![wireframe](https://i.imgur.com/vnt62ki.png)
+- https://i.imgur.com/vnt62ki.png
 
 ## Links
 - **Trello**
