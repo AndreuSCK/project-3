@@ -1,6 +1,13 @@
 # Project 3 App
 <br>
 
+
+
+
+
+
+
+
 ## Description
 -   This app will let users create their own canvas and organize it as they want.
 -   Add headers, lists, pictures, text etc in a customized canvas ready to be used in your daily projects.
