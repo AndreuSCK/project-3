@@ -36,11 +36,12 @@ The MVP will cover the following:
 | Path                      | Component            | Permissions                 | Behavior                                                     |
 | ------------------------- | -------------------- | --------------------------- | ------------------------------------------------------------ |
 | `/`                       | SplashPage           | public `<Route>`            | Home page                                                    |
+| `/gallery`                | CanvasGallery        | public `<Route>`  | Gallery of the canvas uploaded by the community              |
 | `/signup`                 | SignupPage           | anon only  `<AnonRoute>`    | Signup form, link to login, navigate to homepage after signup|
 | `/login`                  | LoginPage            | anon only `<AnonRoute>`     | Login form, link to signup, navigate to homepage after login |
 | `/canvas/:id`             | UserCanvas           | user only `<PrivateRoute>`  | Canvas of the user.                                          |
 | `/profile`                | UserProfile          | user only `<PrivateRoute>`  | User profile                                                 |
-| `/gallery`                | CanvasGallery        | user only `<PrivateRoute>`  | Gallery of the canvas uploaded by the community              |
+
 
 
 ## Components
